@@ -29,7 +29,7 @@ keywords:
 creative_commons:
 
 # Available: atom-one-dark | atom-one-light | solarized-dark | solarized-light
-highlight: atom-one-dark
+highlight: solarized-dark
 
 # Custom info in footer.
 custom_info: 托管于<i class="fab fa-github-alt"></i><a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
@@ -117,7 +117,7 @@ lib_cdn:
     css:
 
 social:
-  enable: true
+  enable: false
   links:
     - name: E-Mail
       link: mailto:youremail@youremailhost
@@ -130,7 +130,7 @@ social:
       icon: fab fa-weibo
 
 blogroll:
-  enable: true
+  enable: false
   links:
     - name: GitHub
       link: https://github.com/
@@ -157,3 +157,7 @@ reward:
   # wechatpay_qrcode: images/WeChatPay.png
   # alipay_qrcode: images/AliPay.png
   # bitcoin_qrcode: images/BitCoin.png
+
+info:
+  enable: false
+

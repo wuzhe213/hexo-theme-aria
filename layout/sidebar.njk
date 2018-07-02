@@ -8,7 +8,9 @@
   </div>
   <div class="search-result-box" id="search-result"></div>
   {% endif %}
-  {% include "info.njk" %}
+  {% if theme.info.enable %}
+    {% include "info.njk" %}
+  {% endif %}
   <div class="sidebar-sticky">
     {% if page.content %}
     {% include "toc.njk" %}
