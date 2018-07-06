@@ -23,13 +23,14 @@ keywords:
   - Life
   - ARIA
   - Hexo
+  - Programmer
 
 # https://creativecommons.org/licenses/
 # by | by-sa | by-nd | by-nc | by-nc-sa | by-nc-nd
 creative_commons:
 
 # Available: atom-one-dark | atom-one-light | solarized-dark | solarized-light
-highlight: solarized-dark
+highlight: atom-one-light
 
 # Custom info in footer.
 custom_info: 托管于<i class="fab fa-github-alt"></i><a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
@@ -153,11 +154,10 @@ comment:
 
 reward:
   enable: false
-  comment: 坚持原创技术分享，您的支持是我前进的动力！
+  comment:
   # wechatpay_qrcode: images/WeChatPay.png
   # alipay_qrcode: images/AliPay.png
   # bitcoin_qrcode: images/BitCoin.png
 
 info:
   enable: false
-
